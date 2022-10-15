@@ -1,0 +1,34 @@
+{
+  "name": "product-availability-notification",
+  "version": "1.0.0",
+  "description": "A simple web scrapper to follow product availability and email notification",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wooqash/product-availability-notification.git"
+  },
+  "keywords": [
+    "node",
+    "web-scrapper",
+    "email-notification"
+  ],
+  "author": "wooqash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wooqash/product-availability-notification/issues"
+  },
+  "homepage": "https://github.com/wooqash/product-availability-notification#readme",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
